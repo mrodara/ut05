@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,7 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sesión 1 php</title>
 </head>
-<body>
+<body> -->
+
+   <?php
+        // INCLUIMOS LA CABECERA DEL PROYECTO 
+        require_once("../../assets/header.php");
+        require_once("../../assets/menu.php");
+   ?> 
+   
    <h2>Ejemplos de código embebido</h2>
 
    <h3>Para mostrar texto directamente</h3>
