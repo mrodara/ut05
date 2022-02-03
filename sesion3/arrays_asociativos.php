@@ -11,6 +11,7 @@
     <h2>Creación de arrays asociativos</h2>
     <?php 
 
+       
         $sistemas = array("so1" => "windows", "so2" => "linux", "so3" => "macos");
 
         $persona = array("nombre" => "Manu", "edad" => 42, "profesor" => true, "salario" => 5000.36);
@@ -22,8 +23,8 @@
     
         echo $sistemas["so3"] . "<br>";
 
-        var_dump($sistemas) . "<br>";
-        var_dump($persona) . "<br>";
+        echo var_dump($sistemas) . "<br>";
+        echo var_dump($persona) . "<br>";
     ?>
 </body>
 </html>

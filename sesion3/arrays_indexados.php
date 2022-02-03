@@ -10,7 +10,8 @@
     
     <h2>Creación de arrays indexandos en php</h2>
     <?php 
-    
+
+            
         //Constructor array()
         $frutas = array("Naranja", "Mandarina", "Pera", "Melón");
 
@@ -19,7 +20,7 @@
 
         //Crear arrays vacios para luego llenarlos
         $vacio = array(10); // Variable es un array de 10 elementos.
-        $vacio = array(); // Variable es un array sin tamaña especifico.
+        $vacio = array(); // Variable es un array sin tamaño especifico.
     ?>
 
     <h2>Acceso a los arrays</h2>

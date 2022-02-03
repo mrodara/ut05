@@ -18,7 +18,7 @@
         echo "El resultado de la multiplicación es: " . $operando1 * $operando2 . "</br>";
         echo "El resultado de la división es: " . $operando1 / $operando2 . "</br>";
         echo "El resultado del módulo es: " . $operando1 % $operando2 . "</br>";
-        echo "El resultado del exponente: " . $operando1 ** $operando2 . "</br>";
+        echo "El resultado de la potencia: " . $operando1 ** $operando2 . "</br>";
     
     ?>
 </body>

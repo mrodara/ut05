@@ -19,15 +19,17 @@
         echo $texto . "</br>";
 
         echo var_dump($operando1 == $operando2) . "</br>";    
-        echo var_dump($operando1 == $texto) . "</br>";    
-        echo var_dump($operando1 === $texto) . "</br>";
+        echo var_dump($operando1 == $texto) . "</br>";    // True
+        echo var_dump($operando1 === $texto) . "</br>";   // False
         echo var_dump($operando1 != $operando2) . "</br>";  // Distinto  
         echo var_dump($operando1 <> $operando2) . "</br>";  // Distinto  
-        echo var_dump($operando1 <> $texto) . "</br>";  // Distinto  
+        echo var_dump($operando1 <> $texto) . "</br>";  // Distinto 
 
         $usuario = 'Manuel';
 
-        echo $usuario == ''? "Hola Invitado":"Bienvenid@ " . $usuario;
+        echo $usuario == ''? "Hola Invitado":"Bienvenid@ " . $usuario; 
+
+        
     
     ?>
 </body>
