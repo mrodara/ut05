@@ -11,7 +11,7 @@
 
     function calcular_vol_cilindro ($radio, $altura){
 
-        return $radio * $altura;
+        return round (pi() * ($radio**2) * $altura, 3);
     }
 
 ?>

@@ -27,7 +27,7 @@
                 $e = 2.10;
 
                 $resultado = 0;
-
+                
                 $resultado = calcular_imc($p, $e);
 
                 echo "El IMC para un peso de $p kilogramos y de $e metros de estatura es de: " .calcular_imc($p,$e) . "</br>";
@@ -47,7 +47,7 @@
 
                 $volumen = calcular_vol_cilindro($radio,$altura);
 
-                echo "El volumen V de un cilindro de radio $radio cm y de altura $altura cm es de: " .round($volumen, 2) . "</br>";
+                echo "El volumen V de un cilindro de radio $radio cm y de altura $altura cm es de: " . $volumen . "</br>";
             
             ?>
         </div>

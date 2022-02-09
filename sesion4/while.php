@@ -37,6 +37,10 @@
                     echo $numero . " ";
 
                     $numero = $numero - 2; // Aqui controlamos que no tengamos un bucle infinito
+                
+                    if($numero < 50){
+                        break;
+                    }
                 }
             
             ?>
@@ -63,6 +67,10 @@
                     echo $numero . " ";
 
                     $numero = $numero + 2;
+
+                    if($numero > 50){
+                        break;
+                    }
 
                 } while ($numero <= 100);               
             
