@@ -72,6 +72,40 @@
             ?>
         </ul>
 
+    <hr>
 
+    <?php 
+    
+        $pagina1 = [
+            'categoria' => 'deportes',
+            'nombre'    => 'marca',
+            'url'       => 'www.marca.com'
+        ];
+        
+        $pagina2 = [
+            'categoria' => 'noticias',
+            'nombre'    => 'la voz de almeria',
+            'url'       => 'mailto:manueljesus.rodriguez@iesalandalus.org'
+        ];
+
+        $favoritos = array($pagina1, $pagina2);
+        
+        echo var_dump($favoritos);
+
+
+    ?>
+
+    <br><br>
+
+    <ul>
+        <?php 
+            foreach($favoritos as $pagina){
+                echo "<li><a href='" .$pagina['url']. "'>" . $pagina['nombre']. "</a></li>";
+            }
+        
+        ?>        
+    </ul>
+
+    
 </body>
 </html>

@@ -21,7 +21,7 @@
             $operando1 = 10;
             $operando2 = 5;
 
-            $operacion = "+";
+            $operacion = "**";
 
             switch ($operacion) {
                 case '+':
@@ -39,6 +39,10 @@
 
                 case '/':
                     echo "El resultado de la división es: " . ($operando1 / $operando2) . "<br>";
+                    break;
+                
+                case '**':
+                    echo "El resultado de la potencia es: " . ($operando1 ** $operando2) . "<br>";
                     break;
 
                 default:

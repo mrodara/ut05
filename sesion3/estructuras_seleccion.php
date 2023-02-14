@@ -126,7 +126,7 @@
     </br>
     <?php 
     
-    $registrado = false;
+    $registrado = true;
     $confirmado = false;
         
         if ($registrado && $confirmado) {

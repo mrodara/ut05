@@ -13,7 +13,9 @@
         $operando1 = 23;
         $operando2 = 14;
 
-        echo "El resultado de la suma es: " . ($operando1 + $operando2) . "</br>"; 
+        $suma = $operando1 + $operando2;
+
+        echo "El resultado de la suma es: " . $suma . "</br>"; 
         echo "El resultado de la resta es: " . ($operando1 - $operando2) . "</br>";
         echo "El resultado de la multiplicación es: " . $operando1 * $operando2 . "</br>";
         echo "El resultado de la división es: " . $operando1 / $operando2 . "</br>";
